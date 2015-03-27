@@ -1,0 +1,141 @@
+<!doctype html>
+<!-- Copyright: Daemon Pty Limited 2006, http://www.daemon.com.au
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Total Quality Management</title>
+
+<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
+<!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="../css/ie6_or_less.css" />
+<![endif]-->
+
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<body id="type-b">
+<div id="wrap">
+    <div id="header">
+        <div id="site-name">Total Quality Management</div>
+    </div>
+
+    <div id="content-wrap">
+
+        <!-- TODO: add sidebar navigation. -->
+
+        <div id="content">
+
+            <div id="breadcrumb">
+                <a href="homepage.cfm">Home</a> /
+                <a href="devtodo">Section Name</a> /
+                <strong>Page Name</strong>
+            </div>
+
+            <hr />
+
+            <p>
+                <head>
+  
+</head>
+
+<body>
+  <h1>Just in time (JIT)</h1>
+  <p>
+"The Just-in-Time (JIT) philosophy advocates: producing and/or delivering only 
+the necessary parts, within the necessary time in the necessary quantity using
+the minimum necessary resources. Ideally, the appropriate number of parts are 
+produced and immediately shipped when the customer order is received. Upstream 
+processes and suppliers deliver exactly the appropriate quantity of components 
+when the downstream process needs them. In this situation there is no need for 
+inventory"(1). 
+</p>
+<h2>Pull System</h2> 
+<p>
+"In conventional production systems, parts produced by one process, as defined by
+the production schedule, are delivered to following processes even if they are
+not yet needed there. This method may be good when parts can be produced on 
+schedule throughout the whole process. But if just one process has trouble and
+the line stops, the processes directly related to the troubled one will
+suffer from either a shortage or a backup of parts. This is called a “push” 
+system. The pull system eliminates under or over production by limiting 
+production to those parts demanded by the next downstream process. This helps to 
+avoid bottlenecks in production"(1). 
+</p>
+<h2>Kanban</h2>
+<p>
+"A visual sign or signal that conveys a set of instructions to either withdraw 
+parts or produce a given product is called a kanban. Kanban is generally 
+recognized as a card that passes between processes, communicating
+information as to what materials to replenish. In is the instrument that enables
+the pull system to function. The pull system, using appropriate kanban, allows 
+material to flow through manufacturing"(1). 
+</p>
+<figure>
+<img src="Kanban.png"
+height="50%" width="50%"/>
+<figcaption>
+<i>Figure 1: Curved arrows represent the direction of information flow thorugh 
+Kanban. Straight arrows represent the flow of materials or products.</i> 
+</figcaption>
+</figure>
+<p>
+    Figure 1 illustrates how the Kanban is implemented in production:
+    <ol>
+    <li>"Production starts when the customer returns Kanban for replenishment of 
+    purchased parts.</li>
+    <li>The customer order is shipped from final bank. (Finished Goods Area)</li>
+    <li>Final assembly produces and replenishes the final bank.</li>
+    <li>Corresponding component needs are communicated with a Kanban that travels 
+    upstream.</li>
+    <li>Those needs are filled by the line side market area.</li>
+    <li>The paint process then replenishes the market area.</li>
+    <li>Corresponding component needs are communicated with a Kanban that travels 
+    upstream.</li>
+    <li>Those needs are filled by the line side market area.</li>
+    <li>The molding operation then replenishes only those items depleted from 
+    the market"(1).</li>
+    </ol>
+ </p>  
+    
+    <h4> <i> Bibliography</i></h4> <br>
+    1. Toyota Production System Basic Handbook. Art of Lean, Inc. 
+    <http://www.artoflean.com/files/Basic_TPS_Handbook_v1.pdf>.
+  
+</body>
+            </p>
+
+            <div id="footer">
+            <p>Quality Control</p>
+            <p>
+                <a href="#">Contact Us</a> |
+                <a href="#">Privacy</a> |
+                <a href="#">Links</a></p>
+            </div>
+
+        </div>
+
+        <div id="poweredby">
+            <a href="http://farcry.daemon.com.au/">
+                <img src="wsimages/mollio.gif" alt="FarCry - Mollio" />
+            </a>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
